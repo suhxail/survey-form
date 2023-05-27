@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div>
+        <table>
+            <thead>
+                <b>Name</b>
+                <b style="color: red;">*</b>
+                <tr>
+                    <th>
+                        <input type="text col-6">
+                    </th>
+    
+                    <th>
+                        <input type="text col-6">
+                    </th>
+                </tr>
+    
+                <tr>
+                    <td>First</td>
+                    <td>Last</td>
+                </tr>
+            </thead>
+        </table>
+    
+        <table>
+            <thead>
+                <b>Email</b>
+                <b style="color: red;">*</b>
+                <tr>
+                    <th>
+                        <input type="email" size="50">
+                    </th>
+                </tr>
+            </thead>
+        </table>
+            
+            
+            <div>
+                <b>Your Experience</b>
+                <b style="color: red;">*</b>
+            </div>
+            
+            
+               
+            
+            
+            <div class="abc">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+            
+                    <i class="fa-solid fa-star"></i>
+            
+                    <i class="fa-solid fa-star"></i>
+            
+                    <i class="fa-solid fa-star"></i>
+            
+                    <i class="fa-solid fa-star"></i> 
+               
+            
+                </div>        
+            
+               <p>overall how would you like to rate the experience with us?</p>
+               
+               
+        
+                <div>
+            
+                    <b>how satisfied are you with?</b>
+                    <b style="color: red;">*</b>
+            
+                    <table class="table table-striped">
+                    <thead>
+                        <tr class="table-primary">
+                            <th></th>
+                            <th>very unsatisfied</th>
+                            <th>unsatisfied</th>
+                            <th>neutral</th>
+                            <th>satisfied</th>
+                            <th>very satisfied</th>
+                        </tr>
+            
+                        <tr class="table-secondary">
+                            <td>Purchase</td>
+                            <td><input type="radio" name="button" value="vu"></td>
+                            <td><input type="radio" name="button" value="u"></td>
+                            <td><input type="radio" name="button" value="n"></td>
+                            <td><input type="radio" name="button" value="s"></td>
+                            <td><input type="radio" name="button" value="vs"></td>               
+                        </tr>
+            
+                        <tr class="table-primary">
+                            <td>Service</td>
+                            <td><input type="radio" name="button" value="vu"></td>
+                            <td><input type="radio" name="button" value="u"></td>
+                            <td><input type="radio" name="button" value="n"></td>
+                            <td><input type="radio" name="button" value="s"></td>
+                            <td><input type="radio" name="button" value="vs"></td>               
+                        </tr>
+            
+                        <tr class="table-secondary">
+                            <td>Company Overall</td>
+                            <td><input type="radio" name="button" value="vu"></td>
+                            <td><input type="radio" name="button" value="u"></td>
+                            <td><input type="radio" name="button" value="n"></td>
+                            <td><input type="radio" name="button" value="s"></td>
+                            <td><input type="radio" name="button" value="vs"></td>               
+                        </tr>
+            
+            
+            
+                    </thead>
+                </table>
+                </div>
+            
+                <div>
+            
+                    <b>How likely are you to</b>
+                    <b style="color: red;">*</b>
+            
+            
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="table-primary">
+                                <th></th>
+                                <th>very unlikely</th>
+                                <th>unlikely</th>
+                                <th>neutral</th>
+                                <th>likely</th>
+                                <th>very likely</th>
+                            </tr>
+                
+                            <tr class="table-secondary">
+                                <td>Buy from us again</td>
+                                <td><input type="radio" name="button" value="vu"></td>
+                                <td><input type="radio" name="button" value="u"></td>
+                                <td><input type="radio" name="button" value="nu"></td>
+                                <td><input type="radio" name="button" value="l"></td>
+                                <td><input type="radio" name="button" value="vl"></td>               
+                            </tr>
+                
+                            <tr class="table-primary">
+                                <td>Recommend our products to others</td>
+                                <td><input type="radio" name="button" value="vu"></td>
+                                <td><input type="radio" name="button" value="uu"></td>
+                                <td><input type="radio" name="button" value="nu"></td>
+                                <td><input type="radio" name="button" value="l"></td>
+                                <td><input type="radio" name="button" value="vl"></td>               
+                            </tr>
+                
+                            <tr class="table-secondary">
+                                <td>Recommend our company to others</td>
+                                <td><input type="radio" name="button" value="vu"></td>
+                                <td><input type="radio" name="button" value="u"></td>
+                                <td><input type="radio" name="button" value="n"></td>
+                                <td><input type="radio" name="button" value="l"></td>
+                                <td><input type="radio" name="button" value="vl"></td>               
+                            </tr> 
+
+
+                           
+                            
+                </div>   
+                
+            
+            </div>   
+            </form>
+    </div> 
+
+    </div>  
+
+ </body>
+</html>
